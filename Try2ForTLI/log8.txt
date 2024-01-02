@@ -1,0 +1,512 @@
+---NEW EXECUTION---
+Program state id: 2
+Execution stack: (int v;(Ref(int) a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: int v
+(Ref(int) a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: int v
+(Ref(int) a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (Ref(int) a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (Ref(int) a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: Ref(int) a
+(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: Ref(int) a
+(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+
+Symbol table: a -> (0; int)
+v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+
+Symbol table: a -> (0; int)
+v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: v=10
+(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+
+Symbol table: a -> (0; int)
+v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: v=10
+(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+
+Symbol table: a -> (0; int)
+v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+
+Symbol table: a -> (0; int)
+v -> 10
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+
+Symbol table: a -> (0; int)
+v -> 10
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: new(a,22)
+(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+
+Symbol table: a -> (0; int)
+v -> 10
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: new(a,22)
+(fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+
+Symbol table: a -> (0; int)
+v -> 10
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: fork((writeHeap(a, 30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 3
+Execution stack: (writeHeap(a, 30);(v=32;(print(v);print(rH(a)))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: (print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 3
+Execution stack: (writeHeap(a, 30);(v=32;(print(v);print(rH(a)))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: print(v)
+print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 3
+Execution stack: writeHeap(a, 30)
+(v=32;(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: print(v)
+print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 3
+Execution stack: writeHeap(a, 30)
+(v=32;(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->22
+
+Output: 
+File table: 
+
+
+Program state id: 2
+Execution stack: print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+
+File table: 
+
+
+Program state id: 3
+Execution stack: (v=32;(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+
+File table: 
+
+
+Program state id: 2
+Execution stack: print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+
+File table: 
+
+
+Program state id: 3
+Execution stack: (v=32;(print(v);print(rH(a))))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+
+File table: 
+
+
+Program state id: 2
+Execution stack: 
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: v=32
+(print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: v=32
+(print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 10
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: (print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: (print(v);print(rH(a)))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: print(v)
+print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: print(v)
+print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+
+File table: 
+
+
+Program state id: 3
+Execution stack: print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+32
+
+File table: 
+
+
+Program state id: 3
+Execution stack: print(rH(a))
+
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+32
+
+File table: 
+
+
+Program state id: 3
+Execution stack: 
+Symbol table: a -> (1; int)
+v -> 32
+
+Heap: 1->30
+
+Output: 10
+30
+32
+30
+
+File table: 
+
+

@@ -1,0 +1,102 @@
+---NEW EXECUTION---
+Program state id: 1
+Execution stack: (int v;(v=2;print(v)))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: int v
+(v=2;print(v))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: int v
+(v=2;print(v))
+
+Symbol table: 
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: (v=2;print(v))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: (v=2;print(v))
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: v=2
+print(v)
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: v=2
+print(v)
+
+Symbol table: v -> 0
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: print(v)
+
+Symbol table: v -> 2
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: print(v)
+
+Symbol table: v -> 2
+
+Heap: 
+Output: 
+File table: 
+
+
+Program state id: 1
+Execution stack: 
+Symbol table: v -> 2
+
+Heap: 
+Output: 2
+
+File table: 
+
+
