@@ -50,7 +50,7 @@ The project follows a standard Java project structure with the following main co
 ### Running the Interpreter
 
 1. **Run the main application**:
-   - Locate the main class in the `controller` package and run it. This will start the Toy Language Interpreter.
+   - Locate the main class in the `view` package and run it. This will start the Toy Language Interpreter.
 
 ### Logging
 
