@@ -68,9 +68,6 @@ Once the interpreter is running, you can input commands in the toy language synt
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 
