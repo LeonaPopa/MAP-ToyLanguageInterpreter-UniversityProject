@@ -23,9 +23,9 @@ The project follows a standard Java project structure with the following main co
 - **log1.txt**, **log8.txt**: Log files for the project.
 - **src**: Main source directory containing the following packages:
   - **controller**: `Controller.java` - Main controller logic.
-  - **model**: Data models (files not listed).
-  - **repository**: Data repository logic (files not listed).
-  - **view**: User interface components (files not listed).
+  - **model**: Data models .
+  - **repository**: Data repository logic .
+  - **view**: User interface components .
 
 ## Getting Started
 
